@@ -23,7 +23,7 @@ img {
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 6px;
+    padding: 16px;
 }
 main {
     max-width: 840px;
@@ -42,11 +42,11 @@ aside img {
     height: auto;
 }
 main img {
-    width: 160px;
+    width: 140px;
     height: auto;
-    margin: 8px;
+    margin: 6px;
 }
-p {padding: 1;}
+p {padding: 10;}
     
 footer {
     margin-top: 15px;
@@ -56,7 +56,7 @@ footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 10px solid rgb(0 0 0 / .1);
+    border: 1px solid rgb(0 0 0 / .1);
     padding: 1rem;
     background-color: #e3dcbd;
     color: #000;
