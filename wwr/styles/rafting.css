@@ -10,20 +10,31 @@
     --border: 1px solid rgb(0 0 0 / 0.1);
 }
 
+nav a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height:auto;
+    background: url("../wwr/images/raftingbanner.jpg") no-repeat center center/cover;    
+}
+
+.hero img {
+    display: none;
+}
+
 h1 {
     background-color: var(--heading-background-color);
     color: var(--accent2-color);
     font-family: var(--font-family);
  }     
 
-nav a {
-    text-decoration: none;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+div h1 {
+    position: relative;
+    top: 40px;
+    right: 60px;
 }
       
     
