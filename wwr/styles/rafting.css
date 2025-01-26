@@ -49,7 +49,7 @@ main img {
 
 
 div h1 {
-    color: var(--primary-color);
+    color: var(--accent1-color);
     font-family: var(--font-family);
     background-color: var(--background);
     position: absolute; 
@@ -59,6 +59,9 @@ div h1 {
     width: 98%;
     text-align: center;
    
+}
+h2 {
+    color: var(--primary-color);
 }
 section img {
     display: right;
