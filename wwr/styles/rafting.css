@@ -20,43 +20,54 @@ nav a {
 }
 
 .hero {
-    display: block;
+    position: relative;
     width: 100%;
-    height:auto;   
+    padding: 20px;
 }
-
-article img {
-    position:absolute;
-    width: 15%;
-    height:auto;  
-    border: 10px #1212129f;
-    top: 374px;
-    right: 280px;
-
+  
+.hero img {
+    width: 100%;
+    height:auto; 
 }
-article p {
-    position: absolute; 
-    top: 358px;
+.hero article {
     right: 320px;
-    width: 50rem; 
+    width: 80rem; 
+    height: 10rem;
     margin: 1rem;
-    padding: 4.5rem;
-    background-color: var(--background2);
-    color: #fbfbfb;
-   
-} 
+}
 
-div h1 {
+.hero article h1 {
     color: var(--accent1-color);
     font-family: var(--font-family);
     background-color: var(--background);
     position: absolute; 
     padding: 1rem;
-    top: 280px;
-    right: 14px;
-    width: 98%;
+    top: 20px;
+    right: 0px;
+    width: 100%;
     text-align: center;  
 }
+
+.hero article img {
+    position: absolute;
+    width: 14.5%;
+    height: auto;
+    top: 127px;
+    right: 104px;
+}
+  
+.hero article p {
+    position: absolute; 
+    border-image-width: 10rem;
+    top: 110px;
+    right: 300px;
+    width: 60rem; 
+    height: 11.5rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color: var(--background2);
+    color: #fbfbfb;
+} 
 
 h2 {
     color: var(--primary-color);
