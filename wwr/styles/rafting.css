@@ -25,14 +25,12 @@ nav a {
     height:auto;   
 }
 
-
-
 article img {
     position:absolute;
-    width: 10%;
+    width: 15%;
     height:auto;  
-    border: 1px #1212129f;
-    top: 358px;
+    border: 10px #1212129f;
+    top: 374px;
     right: 280px;
 
 }
