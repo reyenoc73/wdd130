@@ -96,7 +96,7 @@ nav a:hover {
 
 .history h2, 
 .adventures h2 {
-    grid-column: 1/-1 ;
+    grid-column: 1/-1;
     justify-self: center;
     padding: 1em 0;
 }
@@ -107,6 +107,18 @@ nav a:hover {
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
     justify-items: center;
+    box-sizing: border-box;
+}
+figure:nth-of-type(odd) {
+    background-color: #6BCAF6;
+    color: #1E7FC1;
+    align-self: center;
+}
+figure:nth-of-type(even) {
+    background-color: antiquewhite;
+    color: aliceblue;
+    align-self: center;
+
 }
 h2 {
     color: var(--primary-color);
