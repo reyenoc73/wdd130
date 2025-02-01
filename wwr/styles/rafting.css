@@ -12,18 +12,30 @@
     --background2:#1a36a54b;
 }
 
-.menu_options {
-    display: flex;
-    align-items: right;
-    justify-content: space-around;
-}
-
 body {
     color: var(--accent2-color);
 }
 
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 nav a {
     text-decoration: none;
+    font-family: var(--font-family);
+    color: #1F2960;
+    padding: 1em;
+}
+nav a:hover {
+    background-color: #fbfbfb;
+    color: #6BCAF6;
 }
 
 .hero {
@@ -75,20 +87,31 @@ nav a {
     
 } 
 
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 2em;
+    margin: 50px 0;
+}
+
+.history h2, 
+.adventures h2 {
+    grid-column: 1/-1 ;
+    justify-self: center;
+    padding: 1em 0;
+}
+
+.adventures {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    justify-items: center;
+}
 h2 {
     color: var(--primary-color);
 }
 
-.adventures  {
-    display: flex;
-}
-
-.flex-item {
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 500px;
-    
-}
 
 
  
