@@ -38,6 +38,33 @@ nav a:hover {
     color: #6BCAF6;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1F2960;
+    margin-top: 100px;
+}
+
+footer p {
+    color: rgb(215, 250, 223);
+}
+
+.sociallinks {
+    display: flex;
+    gap: 2rem;
+}
+
+.sociallinks img {
+    width: 2rem;
+}
+
+.sociallinks a:hover {
+    background-color: #b5aea5;
+    color: #6BCAF6;
+}
+
 .hero {
     position: relative;
     width: 100%;
@@ -99,30 +126,35 @@ nav a:hover {
     grid-column: 1/-1;
     justify-self: center;
     padding: 1em 0;
+    color: var(--primary-color);
 }
 
 .adventures {
-    margin: 50px 0;
+    margin: 1px 0;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
     justify-items: center;
     box-sizing: border-box;
 }
+
 figure:nth-of-type(odd) {
     background-color: #6BCAF6;
     color: #1E7FC1;
     align-self: center;
 }
+
 figure:nth-of-type(even) {
     background-color: antiquewhite;
-    color: aliceblue;
+    color: rgb(193, 112, 51);
     align-self: center;
+}
 
+figcaption {
+    text-align: center;
+    padding: .5em 0;
 }
-h2 {
-    color: var(--primary-color);
-}
+
 
 
 
