@@ -49,12 +49,11 @@ h1 {
 
 .contact-info, .form-group {
     width:90%;
-    
-  
 }
 
 .form-group {
     margin-top: 20px;
+    text-align: left;
 }
 
 .map {
@@ -68,7 +67,7 @@ h3 {
     display: inline-block;
     margin-right: 250px;
     text-align:  center;
-    margin: 20 px;
+    margin:20 px;
 }
 
 .employee-profile img {
