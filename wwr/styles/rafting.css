@@ -40,24 +40,22 @@ h1 {
 .container {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
+
+.contact-info {
+    width: 45%;
+    padding: 20px;
+}
+
 
 
 .contact-info h2 {
     text-align: left;
 }
 
-.contact-info, .form-group {
-    width:90%;
-}
-
-.form-group {
-    margin-top: 20px;
-    text-align: left;
-}
-
 .map {
-    padding: 20px;  
+    padding: 10px;  
 }
 
 h3 {
