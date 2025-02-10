@@ -33,6 +33,83 @@ nav a {
     color: #1F2960;
     padding: 1em;
 }
+
+h1 {
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contact-info h2 {
+    text-align: left;
+}
+
+.contact-info, .form-group {
+    width:90%;
+    
+  
+}
+
+.form-group {
+    margin-top: 20px;
+}
+.map {
+    padding: 20px;
+    border: 100px;
+    border-color: #1F2960;
+}
+h3 {
+    text-align: center;
+}
+.employee-profile {
+    display: inline-block;
+    margin-right: 250px;
+    text-align:  center;
+    margin: 20 px;
+}
+
+.employee-profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+label {
+    
+    margin-bottom: 5px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+.submit-button {
+    background-color: #6BCAF6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+.submit-button:hover {
+    background-color: #1E7FC1;
+}
+
 nav a:hover {
     background-color: #fbfbfb;
     color: #6BCAF6;
