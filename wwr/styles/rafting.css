@@ -3,7 +3,7 @@
     --primary-color: #DC8708;
     --secondary-color: #1E7FC1; 
     --accent1-color: #6BCAF6;
-    --accent2-color: #1F2960;
+    --accent2-color: #00008b;
     --font-family: "PT Sans", serif;
     --font-weight: 400;
     --font-style: normal;
@@ -20,7 +20,7 @@ header {
     display: grid;
     grid-template-columns: 200px auto;
     align-items: center;
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
 }
 
 nav {
@@ -30,7 +30,7 @@ nav {
 nav a {
     text-decoration: none;
     font-family: var(--font-family);
-    color: #1F2960;
+    color: #00008b;
     padding: 1em;
 }
 
@@ -58,8 +58,8 @@ h1 {
 }
 .map {
     padding: 20px;
-    border: 100px;
-    border-color: #1F2960;
+  
+   
 }
 h3 {
     text-align: center;
@@ -100,7 +100,7 @@ input[type="checkbox"] {
 
 .submit-button {
     background-color: #6BCAF6;
-    color: white;
+    color: #00008b;
     border: none;
     cursor: pointer;
     width: 30%;
@@ -111,7 +111,7 @@ input[type="checkbox"] {
 }
 
 nav a:hover {
-    background-color: #fbfbfb;
+    background-color: #124486;
     color: #6BCAF6;
 }
 
@@ -120,12 +120,12 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #1F2960;
+    background-color: #f2f1ee;
     margin-top: 100px;
 }
 
 footer p {
-    color: rgb(215, 250, 223);
+    color: #00008b;
 }
 
 .wireframe a:hover {
