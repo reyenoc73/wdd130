@@ -30,7 +30,7 @@ nav {
 nav a {
     text-decoration: none;
     font-family: var(--font-family);
-    color: #00008b;
+    color: var(--accent2-color);
     padding: 1em;
 }
 
@@ -91,7 +91,7 @@ input[type="checkbox"] {
 
 .submit-button {
     background-color: #6BCAF6;
-    color: #00008b;
+    color: var(--accent2-color);
     border: none;
     cursor: pointer;
     width: 30%;
@@ -116,7 +116,7 @@ footer {
 }
 
 footer p {
-    color: #00008b;
+    color: var(--accent2-color);
 }
 
 .wireframe a:hover {
