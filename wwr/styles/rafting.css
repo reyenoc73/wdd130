@@ -43,44 +43,40 @@ h1 {
     text-align: center;
 }
 
-.container  {
+.contactus  {
     display: flex;
     justify-content: space-between;
 }
 
+.contact-info {
+    width: 45%;   
+}
+
 .contacform {
-    grid-column: 2/6;
-    grid-row: 2/4;
     width: 45%;
 }
 
-.contact-info {
-    grid-column: 7/12;
-    grid-row:2/4;
-    width: 45;   
-}
-
-
-h3 {
+h2 {
     text-align: center;
 }
-.grid.employees {
+
+.employees {
     display: flex;
-    justify-content: space-around;
-    align-items:  center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
-.grid.employees figure {
-    margin: 0 10px;
-    text-align: center;
-}
-
-.grid.employess img {
+.employees img {
     border-radius: 50%;
-    width: 150 px;
-    height: 150 px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
 }
+
 
 label { 
     margin-bottom: 5px;
@@ -109,8 +105,6 @@ input[type="radio"],[type="checkbox"] {
 .submit-button:hover {
     background-color: #1E7FC1;
 }
-
-
 
 footer {
     display: flex;
@@ -146,12 +140,14 @@ footer p {
 .hero {
     position: relative;
     width: 100%;
-    padding: 20px;
+    padding: 0px;
+    top: 5px;
 }
   
 .hero img {
     width: 100%;
     height:auto; 
+    box-sizing: border-box;
 }
 
 .abs-heading1 {
@@ -161,17 +157,17 @@ footer p {
     position: absolute; 
     padding: 1rem;
     top: 20px;
-    right: 30px;
-    left: 20px;
     width: 100%;
     text-align: center;  
+    box-sizing: border-box;
+    
 }
 
 .abs-article img {
     position: absolute;
     width: 11.5%;
     height: auto;
-    top: 130px;
+    top: 135px;
     right: 204px;
     z-index: 2;
 }
@@ -188,8 +184,7 @@ footer p {
     background-color: var(--background2);
     z-index: 1; 
     color: #fbfbfb;
-    text-align: left;  
-    
+    text-align: left;      
 } 
 
 .history {
@@ -204,25 +199,33 @@ footer p {
     grid-column: 1/-1;
     justify-self: center;
     padding: 1em 0;
-    color: var(--primary-color);
+    color: var(--accent2-color);
 }
+
 
 .adventures {
-    margin: 1px 0;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
-figure:nth-of-type(odd) {
+.adventures img {
+    width: 100%;
+    height: auto;
+}
+
+
+.adventures figure:nth-of-type(odd) {
     background-color: #6BCAF6;
     color: var(--accent2-color);
     align-self: center;
 }
 
-figure:nth-of-type(even) {
+.adventures figure:nth-of-type(even) {
     background-color: antiquewhite;
     color: var(--accent2-color);
     align-self: center;
