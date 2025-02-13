@@ -57,26 +57,30 @@ h1 {
 .contact-info {
     grid-column: 7/12;
     grid-row:2/4;
-    width: 45;
-    
+    width: 45;   
 }
 
 
 h3 {
     text-align: center;
 }
-.employees {
-    display: inline-block;
-    margin-right: 100px;
-    text-align:  center;
+.grid.employees {
+    display: flex;
+    justify-content: space-around;
+    align-items:  center;
 }
 
-.employees img {
-    width: 150px;
-    height: 150px;
+.grid.employees figure {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.grid.employess img {
     border-radius: 50%;
+    width: 150 px;
+    height: 150 px;
+    object-fit: cover;
 }
-
 
 label { 
     margin-bottom: 5px;
@@ -214,13 +218,13 @@ footer p {
 
 figure:nth-of-type(odd) {
     background-color: #6BCAF6;
-    color: #1E7FC1;
+    color: var(--accent2-color);
     align-self: center;
 }
 
 figure:nth-of-type(even) {
     background-color: antiquewhite;
-    color: rgb(193, 112, 51);
+    color: var(--accent2-color);
     align-self: center;
 }
 
