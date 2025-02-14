@@ -48,18 +48,6 @@ h1,h3 {
     justify-content: space-between;
 }
 
-.inspiring  {
-    display: flex;
-    justify-content: space-between;
-}
-
-.get-to-embark{
-    width: 45%;
-}
-
-.newsletter-signup{
-    width: 45%;
-}
 .contact-info {
     width: 45%;   
 }
@@ -239,6 +227,20 @@ footer p {
     z-index: 2;
 }
 
+
+.inspiring  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-to-embark{
+    width: 45%;
+}
+
+.newsletter-signup{
+    width: 45%;
+}
+
 .newsletter-signup label, 
 .newsletter-signup input {
     display: block;
@@ -313,7 +315,9 @@ footer p {
     padding: 1em 0;
     color: var(--accent2-color);
 }
-
+.adventure-await {
+    justify-self: center;
+}
 
 .adventures {
     display: flex;
