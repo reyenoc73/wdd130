@@ -48,6 +48,18 @@ h1,h3 {
     justify-content: space-between;
 }
 
+.inspiring  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-to-embark{
+    width: 45%;
+}
+
+.newsletter-signup{
+    width: 45%;
+}
 .contact-info {
     width: 45%;   
 }
