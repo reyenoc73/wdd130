@@ -10,6 +10,7 @@
     --padding: 10px;
     --background: #1212129f;
     --background2:#1a36a54b;
+    --background3: antiquewhite;
 }
 
 body {
@@ -43,6 +44,11 @@ h1,h3 {
     text-align: center;
 }
 
+h2 {
+    text-align: left;
+}
+
+
 .contactus  {
     display: flex;
     justify-content: space-between;
@@ -56,8 +62,31 @@ h1,h3 {
     width: 45%;
 }
 
-h2 {
-    text-align: left;
+label { 
+    margin-bottom: 5px;
+}
+
+input, textarea, button {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input[type="radio"],[type="checkbox"] {
+    width: auto;
+}
+
+.submit-button {
+    background-color: #6BCAF6;
+    color: var(--accent2-color);
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+.submit-button:hover {
+    background-color: #1E7FC1;
 }
 
 .employees {
@@ -75,35 +104,6 @@ h2 {
     width: 250px;
     height: 250px;
     object-fit: cover;
-}
-
-
-label { 
-    margin-bottom: 5px;
-}
-
-input, textarea, button {
-    width: 70%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-
-input[type="radio"],[type="checkbox"] {
-    width: auto;
-}
-
-
-.submit-button {
-    background-color: #6BCAF6;
-    color: var(--accent2-color);
-    border: none;
-    cursor: pointer;
-    width: 30%;
-}
-
-.submit-button:hover {
-    background-color: #1E7FC1;
 }
 
 footer {
@@ -140,7 +140,7 @@ footer p {
 .hero {
     position: relative;
     width: 100%;
-    padding: 0px;
+    padding: 10px;
     top: 5px;
 }
   
@@ -187,7 +187,93 @@ footer p {
     text-align: left;      
 } 
 
-.content {
+
+.call-to-action-trips {
+    position: absolute; 
+    width: 100%;
+    top: 135px;
+    height: 11.5rem;
+    padding-top: 20px;
+    background-color: var(--background2);
+    z-index: 1; 
+    box-sizing: border-box;
+    color: #fbfbfb;
+    text-align: center;
+}
+
+.options-trips {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+    top:1285px;
+    position: absolute;
+}
+
+.trip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trip img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.trip-table {
+    padding-top: 300px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+    padding: 10px;
+    border: 1 px solid var(--accent2-color);
+}
+
+.trip-table th {
+    background-color: var(--background3);
+}
+
+.additional-message {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background2);
+    padding: 40px;
+}
+
+.background-image {
+    width: 45%;
+    position: relative;
+    left: 180px;
+}
+
+.with-us-declaration {
+    width: 28%;
+    position: absolute;
+    z-index: 1;
+    right: 120px;
+    background-color: var(--background3);
+    text-align: center;
+    margin:60px;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;    
+}
+
+.decoration-title {
     position: absolute; 
     top: 135px;
     right: 100px;
@@ -210,6 +296,7 @@ footer p {
     right: 204px;
     z-index: 2;
 }
+
 .decoration2 img {
     position: absolute;
     width: 11.5%;
@@ -218,6 +305,7 @@ footer p {
     right: 204px;
     z-index: 2;
 }
+
 .decoration3 img {
     position: absolute;
     width: 11.5%;
@@ -226,7 +314,6 @@ footer p {
     right: 204px;
     z-index: 2;
 }
-
 
 .inspiring  {
     display: flex;
@@ -258,19 +345,19 @@ footer p {
 }
 
 .newsletter-signup input[type="submit"]:hover {
-    background-color:antiquewhite;
+    background-color:var(--background3);
 
 }
 
-.call-to-action {
+.call-to-action-index {
     text-align: center;
     padding: 50px;
     margin-top: 50px;
-    background-color: antiquewhite;
+    background-color: var(--background3);
 }
 
 
-.cta-button {
+.go-trips, .go-contactus, .go-aboutus {
     display: inline-block;
     padding: 10px 20px;
     background-color: var(--accent1-color);
@@ -279,8 +366,8 @@ footer p {
     margin-top: 20px;
 }
 
-.cta-button:hover {
-    background-color: antiquewhite;
+.go-trips:hover, .go-contactus:hover, .go-aboutus:hover {
+    background-color: var(--background);
 }
 
 .rafting-offerings {
