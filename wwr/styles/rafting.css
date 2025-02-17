@@ -239,7 +239,6 @@ footer p {
 
 .trip-table th, .trip-table td {
     padding: 10px;
-    border: 1 px solid var(--accent2-color);
 }
 
 .trip-table th {
